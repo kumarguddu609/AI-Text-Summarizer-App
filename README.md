@@ -1,4 +1,3 @@
-````markdown
 # AI Text Summarizer
 
 This project is an AI Text Summarizer that utilizes the Hugging Face API. It has been developed using Postman for API testing and an Express server for handling requests.
@@ -25,6 +24,7 @@ This project is an AI Text Summarizer that utilizes the Hugging Face API. It has
    ```bash
    git clone https://github.com/kumarguddu609/ai-text-summarizer.git
    ```
+
 ````
 
 2. Install dependencies:
@@ -74,3 +74,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 Remember to replace placeholders like `your-username` with your actual GitHub username and adjust details based on your project's structure and requirements.
 ```
+````
