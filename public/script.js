@@ -1,4 +1,4 @@
-require("dotenv").config();
+// require("dotenv").config();
 const textArea = document.getElementById("text_to_summarize");
 const submitButton = document.getElementById("submit-button");
 const summarizedTextArea = document.getElementById("summary");
@@ -30,7 +30,7 @@ function submitData(e) {
 
   var myHeaders = new Headers();
   myHeaders.append("Content-Type", "application/json");
-  myHeaders.append("Authorization", "Bearer " + process.env.API_KEY);
+  // myHeaders.append("Authorization", "Bearer " + process.env.API_KEY);
   var raw = JSON.stringify({
     text_to_summarize: text_to_summarize,
   });
