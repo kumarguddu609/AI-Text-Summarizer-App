@@ -36,7 +36,7 @@ This project is an AI Text Summarizer that utilizes the Hugging Face API. It has
 3. Set up environment variables:
    Create a `.env` file in the root directory with the following:
    ```env
-   HUGGING_FACE_API_KEY=your-hugging-face-api-key
+   API_KEY=your-hugging-face-api-key
    ```
 
 ## Usage
