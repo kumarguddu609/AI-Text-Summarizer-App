@@ -21,11 +21,10 @@ This project is an AI Text Summarizer that utilizes the Hugging Face API. It has
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/kumarguddu609/ai-text-summarizer.git
    ```
-
-````
 
 2. Install dependencies:
 
@@ -74,4 +73,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 Remember to replace placeholders like `your-username` with your actual GitHub username and adjust details based on your project's structure and requirements.
 ```
-````
