@@ -1,8 +1,7 @@
 [build]
-  command = "npm run build"  # Specify your build command
-  publish = "public"         # Specify the directory to publish
+  functions = "functions"
 
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+    to="/.netlify/functions/index/:splat"
+    from = "/*"
+    status = 200

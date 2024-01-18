@@ -2,18 +2,18 @@ require("dotenv").config();
 const express = require("express");
 const serverless = require("serverless-http");
 const app = express();
-
+const router = express.Router();
 const port = 3000;
 
 const summarizeText = require("./summarize.js");
 
 // Parse JSON bodies (as sent by API clients)
-app.use(express.json());
+router.use(express.json());
 
-app.use(express.static("public")); // Serve static files from the 'public' directory
+router.use(express.static("public")); // Serve static files from the 'public' directory
 
 // Handle POST requests to the '/summarize' endpoint
-app.post("/summarize", (req, res) => {
+router.post("/summarize", (req, res) => {
   // get the text_to_summarize property from the request body
   const text = req.body.text_to_summarize;
 
@@ -31,5 +31,5 @@ app.post("/summarize", (req, res) => {
 // app.listen(port, () => {
 //   console.log("Server running at 3000");
 // });
-
+app.use("/", router);
 module.exports.handler = serverless(app);
