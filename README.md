@@ -4,7 +4,7 @@ This project is an AI Text Summarizer that utilizes the Hugging Face API. It has
 
 ## Live Demo
 
-Check out the live demo [here](https://ai-text-summarize.netlify.app/).
+Check out the live demo [here](https://ai-text-summarize.netlify.app/){:target="\_blank"}.
 
 ## Table of Contents
 
