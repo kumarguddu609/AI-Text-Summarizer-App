@@ -2,6 +2,10 @@
 
 This project is an AI Text Summarizer that utilizes the Hugging Face API. It has been developed using Postman for API testing and an Express server for handling requests.
 
+## Live Demo
+
+Check out the live demo [here](https://ai-text-summarize.netlify.app/).
+
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
